@@ -75,7 +75,7 @@
     color: var(--primary-light);
 }
 .flight-card th {
-    background: rgba(92, 225, 230, 0.1);
+    background: rgba(175, 221, 229, 0.15);
     color: var(--primary-light);
 }
 
