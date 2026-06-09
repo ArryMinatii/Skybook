@@ -11,25 +11,37 @@
    ========================================================================== */
 :root {
     /* Brand Colors */
-    --primary: #0FA4AF;          /* Vibrant Teal */
-    --primary-dark: #086972;     /* Deep Teal */
-    --primary-light: #5CE1E6;    /* Lighter Cyan Accent */
+    --primary: #0FA4AF;
+    /* Vibrant Teal */
+    --primary-dark: #086972;
+    /* Deep Teal */
+    --primary-light: #5CE1E6;
+    /* Lighter Cyan Accent */
     --primary-glow: rgba(15, 164, 175, 0.15);
-    --secondary: #024950;        /* Dark Teal-Green */
-    --accent: #964734;           /* Terracotta / Accent Red */
+    --secondary: #024950;
+    /* Dark Teal-Green */
+    --accent: #964734;
+    /* Terracotta / Accent Red */
     --success: #10B981;
     --danger: #EF4444;
     --warning: #F59E0B;
     --mod-update: var(--accent);
 
     /* Surface & Text */
-    --bg: #003135;               /* Deep Dark Teal-Green Background */
-    --surface: #024950;          /* Dark Teal Card Surface */
-    --surface-light: #AFDDE5;    /* Pale Aqua Light Surface */
-    --text: #FFFFFF;             /* White Text */
-    --text-secondary: #AFDDE5;   /* Light Aqua Secondary Text */
-    --text-muted: #80A1A5;       /* Slate Teal Muted Text */
-    --border: rgba(15, 164, 175, 0.2); /* Soft Teal Borders */
+    --bg: #003135;
+    /* Deep Dark Teal-Green Background */
+    --surface: #024950;
+    /* Dark Teal Card Surface */
+    --surface-light: #AFDDE5;
+    /* Pale Aqua Light Surface */
+    --text: #FFFFFF;
+    /* White Text */
+    --text-secondary: #AFDDE5;
+    /* Light Aqua Secondary Text */
+    --text-muted: #80A1A5;
+    /* Slate Teal Muted Text */
+    --border: rgba(15, 164, 175, 0.2);
+    /* Soft Teal Borders */
     --gray: #80A1A5;
 
     /* Glass */
@@ -58,7 +70,8 @@ body.page-query {
     --primary-glow: rgba(15, 164, 175, 0.2);
     --secondary: #AFDDE5;
     --accent: #964734;
-    --bg: #002225;               /* Darker background for query portal */
+    --bg: #002225;
+    /* Darker background for query portal */
     --surface: #023B41;
     --text: #FFFFFF;
     --text-secondary: #AFDDE5;
