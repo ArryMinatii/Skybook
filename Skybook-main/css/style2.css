@@ -47,47 +47,47 @@
    COLOR ACCENT BRANDS FOR ENTITIES
    ========================================================================== */
 .passenger-card {
-    border-top: 4px solid #1E40AF;
+    border-top: 4px solid var(--primary);
 }
 .passenger-card h2 {
-    color: #1E40AF;
+    color: var(--primary);
 }
 .passenger-card th {
-    background: rgba(30, 64, 175, 0.06);
-    color: #1E40AF;
+    background: rgba(15, 164, 175, 0.1);
+    color: var(--primary-light);
 }
 
 .agency-card {
-    border-top: 4px solid #0F172A;
+    border-top: 4px solid var(--accent);
 }
 .agency-card h2 {
-    color: #0F172A;
+    color: #E07A5F;
 }
 .agency-card th {
-    background: rgba(15, 23, 42, 0.06);
-    color: #0F172A;
+    background: rgba(150, 71, 52, 0.12);
+    color: #E07A5F;
 }
 
 .flight-card {
-    border-top: 4px solid #0284C7;
+    border-top: 4px solid var(--primary-light);
 }
 .flight-card h2 {
-    color: #0284C7;
+    color: var(--primary-light);
 }
 .flight-card th {
-    background: rgba(2, 132, 199, 0.06);
-    color: #0284C7;
+    background: rgba(92, 225, 230, 0.1);
+    color: var(--primary-light);
 }
 
 .booking-card {
-    border-top: 4px solid #475569;
+    border-top: 4px solid var(--surface-light);
 }
 .booking-card h2 {
-    color: #475569;
+    color: var(--surface-light);
 }
 .booking-card th {
-    background: rgba(71, 85, 105, 0.06);
-    color: #475569;
+    background: rgba(175, 221, 229, 0.15);
+    color: var(--surface-light);
 }
 
 /* ==========================================================================
@@ -134,17 +134,17 @@ tbody tr:hover td {
 }
 
 .table-card::-webkit-scrollbar-track {
-    background: #F1F5F9;
+    background: var(--bg);
     border-radius: 8px;
 }
 
 .table-card::-webkit-scrollbar-thumb {
-    background: #CBD5E1;
+    background: var(--secondary);
     border-radius: 8px;
 }
 
 .table-card::-webkit-scrollbar-thumb:hover {
-    background: #94A3B8;
+    background: var(--primary-dark);
 }
 
 /* ==========================================================================
